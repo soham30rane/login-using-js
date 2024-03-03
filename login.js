@@ -16,11 +16,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const content = document.getElementById('content')
 
     const swicthToLogin = () =>{
+        msg_login.innerHTML = ""
         reg_box.style.display = 'none'
         login_box.style.display = 'block'
         content.style.display = 'none'
     }
     const switchToReg = () => {
+        msg_reg.innerHTML = ""
         login_box.style.display = 'none'
         reg_box.style.display = 'block'
         content.style.display = 'none'
